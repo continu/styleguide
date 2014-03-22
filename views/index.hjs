@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{ title }}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <title>Continu Styleguide</title>
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel='stylesheet' href='/css/style.css' />
   </head>
+
   <body>
-    <h1>{{ title }}</h1>
-    <p>Welcome to {{ title }}</p>
+    <nav class="nav-container">
+      <div class="icon-container">
+        <img class="icon" src="/img/continu-logo.png">
+      </div>
+
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-item-link" href="/">Color</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-item-link" href="/">Typography</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-item-link" href="/">Icons</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-item-link" href="/">Buttons</a>
+        </li>
+      </ul>
+    </nav>
   </body>
 </html>

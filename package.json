@@ -7,6 +7,11 @@
   },
   "dependencies": {
     "express": "3.4.7",
-    "hjs": "*"
+    "hjs": "*",
+    "gulp": "~3.5.6",
+    "gulp-rename": "~1.2.0",
+    "gulp-sass": "~0.7.1",
+    "nodemon": "~1.0.17",
+    "gulp-nodemon": "~1.0.2"
   }
 }
