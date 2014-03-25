@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="styleguide">
   <head>
-    <title>Continu Styleguide</title>
+    <title>Continu | Style Guide</title>
     <link rel="shortcut icon" href="/img/favicon.ico">
     <link rel='stylesheet' href='/css/style.css' />
     <script type="text/javascript" src="/js/styleguide.min.js"></script>
@@ -14,22 +14,22 @@
       </div>
 
       <ul class="nav">
-        <li class="nav-item">
+        <li class="nav-item color">
           <a class="nav-item-link" href="/#/color">
             <p class="nav-item-label">Color</p>
           </a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item typography">
           <a class="nav-item-link" href="/#/typography">
             <p class="nav-item-label">Typography</p>
           </a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item icons">
           <a class="nav-item-link" href="/#/icons">
             <p class="nav-item-label">Icons</p>
           </a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item buttons">
           <a class="nav-item-link" href="/#/buttons">
             <p class="nav-item-label">Buttons</p>
           </a>
@@ -37,6 +37,6 @@
       </ul>
     </nav>
 
-    <section class="main" ng-view></section>
+    <section class="main-section" ng-view></section>
   </body>
 </html>

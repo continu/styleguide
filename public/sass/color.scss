@@ -1,0 +1,148 @@
+.primary-colors-container,
+.secondary-colors-container,
+.alert-colors-container {
+  overflow: auto;
+}
+
+.primary-color,
+.secondary-color {
+  float: left;
+  width: 100px;
+  margin-right: 20px;
+
+  .normal {
+    height: 100px;
+  }
+  .hover {
+    height: 40px;
+  }
+}
+
+.primary-color {
+  &:nth-child(1) {
+    .normal {
+      background: $primary-dark-blue;
+    }
+    .hover {
+      background: $primary-dark-blue_hover;
+    }
+  }
+
+  &:nth-child(2) {
+    .normal {
+      background: $primary-light-blue;
+    }
+    .hover {
+      background: $primary-light-blue_hover;
+    }
+  }
+
+  &:nth-child(3) {
+    .normal {
+      background: $primary-bright-blue;
+    }
+    .hover {
+      background: $primary-bright-blue_hover;
+    }
+  }
+
+  &:nth-child(4) {
+    .normal {
+      background: $primary-dark-grey;
+    }
+    .hover {
+      background: $primary-dark-grey_hover;
+    }
+  }
+
+  &:nth-child(5) {
+    .normal {
+      background: $primary-grey;
+    }
+    .hover {
+      background: $primary-grey_hover;
+    }
+  }
+
+  &:nth-child(6) {
+    .normal,
+    .hover {
+      background: $primary-white;
+    }
+  }
+}
+
+.secondary-color {
+  &:nth-child(1) {
+    .normal {
+      background: $secondary-purple;
+    }
+    .hover {
+      background: $secondary-purple_hover;
+    }
+  }
+
+  &:nth-child(2) {
+    .normal {
+      background: $secondardy-green;
+    }
+    .hover {
+      background: $secondardy-green_hover;
+    }
+  }
+
+  &:nth-child(3) {
+    .normal {
+      background: $secondardy-yellow;
+    }
+    .hover {
+      background: $secondardy-yellow_hover;
+    }
+  }
+
+  &:nth-child(4) {
+    .normal {
+      background: $secondardy-orange;
+    }
+    .hover {
+      background: $secondardy-orange_hover;
+    }
+  }
+}
+
+.alert-color {
+  float: left;
+  width: 45px;
+  height: 45px;
+  margin-right: 20px;
+  border-radius: 100%;
+
+  &:nth-child(1) {
+    background: $alert-green;
+  }
+  &:nth-child(2) {
+    background: $alert-red;
+  }
+  &:nth-child(3) {
+    background: $alert-yellow;
+  }
+  &:nth-child(4) {
+    background: $alert-orange;
+  }
+}
+
+.normal .color-label,
+.hover .color-label {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}
+
+.normal .color-label{
+  line-height: 100px;
+}
+
+.hover .color-label {
+  line-height: 40px;
+}
