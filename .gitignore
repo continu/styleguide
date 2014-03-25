@@ -14,5 +14,5 @@ results
 npm-debug.log
 node_modules
 
-style.css
-styleguide.min.js
+public/css/style.css
+public/js/styleguide.min.js

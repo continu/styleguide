@@ -70,6 +70,9 @@
       background: $primary-white;
     }
   }
+  &.white {
+    border: 1px solid #e2e2e2;
+  }
 }
 
 .secondary-color {
@@ -110,33 +113,17 @@
   }
 }
 
-.alert-color {
-  float: left;
-  width: 45px;
-  height: 45px;
-  margin-right: 20px;
-  border-radius: 100%;
-
-  &:nth-child(1) {
-    background: $alert-green;
-  }
-  &:nth-child(2) {
-    background: $alert-red;
-  }
-  &:nth-child(3) {
-    background: $alert-yellow;
-  }
-  &:nth-child(4) {
-    background: $alert-orange;
-  }
-}
-
 .normal .color-label,
 .hover .color-label {
   display: block;
   text-align: center;
   font-size: 14px;
+  text-transform: uppercase;
   color: white;
+}
+
+.hover .color-label {
+  font-size: 12px;
 }
 
 .normal .color-label{
@@ -146,3 +133,58 @@
 .hover .color-label {
   line-height: 40px;
 }
+
+.white .normal .color-label{
+  color: $primary-dark-grey;
+}
+
+.alert-color {
+  float: left;
+  width: 85px;
+
+  .color {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+  }
+
+  .label,
+  .description {
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    color: $primary-grey;
+  }
+
+  .label {
+    margin-top: 20px;
+  }
+
+  .description {
+    &:nth-child(3) {
+      margin-top: 10px;
+    }
+  }
+
+  &:nth-child(1) {
+    .color {
+      background: $alert-green;
+    }
+  }
+  &:nth-child(2) {
+    .color {
+      background: $alert-red;
+    }
+  }
+  &:nth-child(3) {
+    .color {
+      background: $alert-yellow;
+    }
+  }
+  &:nth-child(4) {
+    .color {
+      background: $alert-orange;
+    }
+  }
+}
+
