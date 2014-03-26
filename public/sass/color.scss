@@ -117,9 +117,12 @@
 .hover .color-label {
   display: block;
   text-align: center;
-  font-size: 14px;
   text-transform: uppercase;
   color: white;
+}
+
+.normal .color-label {
+  font-size: 14px;
 }
 
 .hover .color-label {

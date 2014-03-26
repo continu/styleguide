@@ -1,0 +1,41 @@
+.type-container {
+  margin: 30px 0;
+  overflow: auto;
+}
+
+.sans-serif-container,
+.serif-container {
+  float: left;
+  width: 50%;
+
+  .example {
+    float: left;
+    font-size: 80px;
+    line-height: 64px;
+  }
+
+  .description {
+    float: left;
+    width: 50%;
+    margin-left: 30px;
+
+    span {
+      display: block;
+      font-size: 14px;
+      font-weight: 300;
+    }
+
+    .type {
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.sans-serif-container {
+  font-family: $sans-serif;
+}
+
+.serif-container {
+  font-family: $serif;
+}

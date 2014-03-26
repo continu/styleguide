@@ -3,7 +3,8 @@
   <head>
     <title>Continu | Style Guide</title>
     <link rel="shortcut icon" href="/img/favicon.ico">
-    <link rel='stylesheet' href='/css/style.css' />
+    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6982032/757202/css/fonts.css" />
+    <link rel='stylesheet' type="text/css" href='/css/style.css' />
     <script type="text/javascript" src="/js/styleguide.min.js"></script>
   </head>
 

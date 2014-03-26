@@ -1,15 +1,19 @@
 @charset "UTF-8";
 
+@import "variables";
+@import "nav";
+@import "section";
+@import "color";
+@import "typography";
+
 html, body {
   height: 100%;
 }
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: $sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
-
-@import "variables";
-@import "nav";
-@import "section";
-@import "color";

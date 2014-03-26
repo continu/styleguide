@@ -19,9 +19,6 @@
     right: 0;
     bottom: 0;
     left: 0;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
   }
 }
 
@@ -34,13 +31,8 @@
   .nav-item {
     list-style: none;
     cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
 
     .nav-item-link {
-      font-size: 20px;
-      font-weight: 300;
       color: $primary-grey;
       text-decoration: none;
 
