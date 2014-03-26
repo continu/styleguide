@@ -8,6 +8,7 @@ gulp.task('js', function() {
   gulp.src(['./public/js/libs/angular.min.js',
             './public/js/libs/angular-route.min.js',
             './public/js/libs/jquery.min.js',
+            './public/js/libs/ss-symbolicons.js',
             './public/js/app.js',
             './public/js/controllers.js'])
       .pipe(concat('styleguide.min.js'))
