@@ -3,6 +3,7 @@
   margin-left: 216px;
   padding: 40px;
   box-sizing: border-box;
+  overflow: auto;
 }
 
 .section-heading {
@@ -18,7 +19,7 @@
 
 .sub-section-heading {
   margin: 30px 0;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   color: $primary-dark-grey;
 }

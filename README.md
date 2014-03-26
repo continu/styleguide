@@ -1,4 +1,4 @@
-Continu Styleguide
+Continu Style Guide
 ==================
 
-continu-styleguide.herokuapp.com/
+continu-styleguide.herokuapp.com
