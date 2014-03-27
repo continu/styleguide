@@ -1427,8 +1427,7 @@ html:hover [class^="ss-"] {
 .sub-section-heading {
   margin: 30px 0;
   font-weight: 500;
-  text-transform: uppercase;
-  color: #191919; }
+  text-transform: uppercase; }
 
 .primary-colors-container, .secondary-colors-container, .alert-colors-container {
   overflow: auto; }
@@ -1515,8 +1514,7 @@ html:hover [class^="ss-"] {
   .alert-color .label, .alert-color .description {
     display: block;
     font-size: 14px;
-    font-weight: 300;
-    color: #939597; }
+    font-weight: 300; }
   .alert-color .label {
     margin-top: 20px; }
   .alert-color .description:nth-child(3) {
@@ -1532,8 +1530,7 @@ html:hover [class^="ss-"] {
 
 .type-container {
   margin: 30px 0 60px;
-  overflow: auto;
-  color: #191919; }
+  overflow: auto; }
 
 .sans-serif-container, .serif-container {
   float: left;
@@ -1612,12 +1609,66 @@ html:hover [class^="ss-"] {
   font-style: italic; }
 
 .icons-container {
-  font-size: 20px;
-  color: #939597; }
+  font-size: 20px; }
   .icons-container .icons-row {
     margin-bottom: 20px; }
     .icons-container .icons-row .ss-icon {
       margin-right: 20px; }
+
+.buttons-heading {
+  float: left;
+  width: 75px; }
+  .buttons-heading h5 {
+    float: right;
+    margin: 0;
+    line-height: 40px; }
+
+.buttons-container {
+  margin-left: 105px; }
+  .buttons-container .height {
+    padding: 12px 5px 12px 0;
+    font-size: 12px;
+    font-weight: 400;
+    color: #a871c0;
+    border-right: 1px solid; }
+
+.button, .button_icon, .button_outlined {
+  width: 120px;
+  height: 40px;
+  padding: 0;
+  margin-right: 8px;
+  background: #0072aa;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font: inherit;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer; }
+  .button.hover, .hover.button_icon, .hover.button_outlined {
+    background: #4095bf; }
+
+.button_icon {
+  position: relative; }
+  .button_icon .ss-icon {
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    font-size: 18px;
+    color: #4095bf; }
+  .button_icon.hover .ss-icon {
+    color: #0072aa; }
+
+.button_outlined {
+  background: white;
+  border: 3px solid #0072aa;
+  color: #0072aa; }
+  .button_outlined.hover {
+    background: white;
+    border-color: #4095bf;
+    color: #4095bf; }
 
 html, body {
   height: 100%; }
@@ -1625,6 +1676,7 @@ html, body {
 body {
   margin: 0;
   font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+  color: #939597;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none; }
