@@ -1,0 +1,112 @@
+form {
+  margin-bottom: 18px;
+  overflow: auto;
+
+  .label {
+    float: left;
+    display: block;
+    margin: 0 0 9px 3px;
+    font-size: 14px;
+    font-weight: 300;
+    color: $primary-dark-grey;
+  }
+
+  .required {
+    float: left;
+    font-size: 15px;
+    line-height: 15px;
+    color: $alert-red;
+  }
+
+  input[type=text],
+  select,
+  textarea {
+    display: block;
+    border: 2px solid #e6e6e7;
+    border-radius: 5px;
+    outline: none;
+    text-indent: 10px;
+    clear: both;
+  }
+
+  input[type=text] {
+    width: 280px;
+    height: 35px;
+  }
+
+  select {
+    -webkit-appearance: none;
+    box-sizing: content-box;
+    background: #eeeeef;
+  }
+
+  .large select {
+    width: 280px;
+    height: 35px;
+  }
+
+  .small select {
+    width: 125px;
+    height: 35px;
+  }
+
+  textarea {
+    width: 610px;
+    height: 134px;
+    resize: none;
+  }
+
+  &.tags {
+    margin-bottom: 10px;
+  }
+}
+
+.dropdown {
+  float: left;
+  position: relative;
+  margin-right: 20px;
+
+  &.large {
+    width: 284px;
+    clear: both;
+  }
+
+  &.small {
+    width: 129px;
+  }
+
+  .ss-icon {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+  }
+}
+
+.tags-container {
+  margin-bottom: 18px;
+
+  .tag {
+    padding: 3px 12px;
+    font-size: 10px;
+    color: $primary-light-blue;
+    border: 2px solid $primary-light-blue;
+    border-radius: 100px;
+  }
+}
+
+.radio-button,
+.checkbox {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  clear: both;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  span {
+    margin-left: 5px;
+  }
+}

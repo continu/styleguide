@@ -40,6 +40,11 @@
             <p class="nav-item-label">Tables</p>
           </a>
         </li>
+        <li class="nav-item forms">
+          <a class="nav-item-link" href="/#/forms">
+            <p class="nav-item-label">Forms</p>
+          </a>
+        </li>
       </ul>
     </nav>
 

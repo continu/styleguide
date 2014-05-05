@@ -24,3 +24,8 @@ styleguideControllers.controller('TablesCtrl', ['$scope', function($scope, $http
   $('.nav-item').removeClass('selected');
   $('.nav-item.tables').addClass('selected');
 }]);
+
+styleguideControllers.controller('FormsCtrl', ['$scope', function($scope, $http) {
+  $('.nav-item').removeClass('selected');
+  $('.nav-item.forms').addClass('selected');
+}]);
