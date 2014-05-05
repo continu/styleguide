@@ -25,6 +25,10 @@ angular.module('styleguide', ['ngRoute', 'styleguideControllers'])
         templateUrl: 'partials/forms.html',
         controller: 'FormsCtrl'
       })
+      .when('/grid', {
+        templateUrl: 'partials/grid.html',
+        controller: 'GridCtrl'
+      })
       .otherwise({
         redirectTo: '/color'
       });
