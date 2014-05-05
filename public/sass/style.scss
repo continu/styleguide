@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 @import "variables";
-@import "ss-symbolicons-block";
 @import "ss-standard";
+@import "ss-symbolicons-block";
 @import "nav";
 @import "section";
 @import "color";
@@ -11,6 +11,7 @@
 @import "buttons";
 @import "tables";
 @import "forms";
+@import "navigation";
 
 html, body {
   height: 100%;

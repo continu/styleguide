@@ -34,3 +34,8 @@ styleguideControllers.controller('GridCtrl', ['$scope', function($scope, $http) 
   $('.nav-item').removeClass('selected');
   $('.nav-item.grid').addClass('selected');
 }]);
+
+styleguideControllers.controller('NavigationCtrl', ['$scope', function($scope, $http) {
+  $('.nav-item').removeClass('selected');
+  $('.nav-item.navigation').addClass('selected');
+}]);
