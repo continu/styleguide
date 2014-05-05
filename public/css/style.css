@@ -1670,6 +1670,58 @@ html:hover [class^="ss-"] {
     border-color: #4095bf;
     color: #4095bf; }
 
+table {
+  border: 1px solid #f8f8f8;
+  border-collapse: collapse; }
+  table.mobile .name {
+    width: 300px; }
+  table.mobile .location {
+    display: none; }
+
+thead {
+  border-bottom: 3px solid #f8f8f8; }
+  thead tr {
+    height: 40px; }
+
+th {
+  font-size: 14px;
+  font-weight: 400;
+  color: #0072aa;
+  box-sizing: border-box; }
+  th.name {
+    width: 475px;
+    text-align: left; }
+  th.status, th.location {
+    width: 125px;
+    text-align: center; }
+  th .up-arrow {
+    margin-left: 6px; }
+  th .down-arrow {
+    margin-left: -6px; }
+  th .label {
+    margin-left: 2px; }
+
+tbody tr {
+  height: 50px;
+  border-bottom: 1px solid #f8f8f8; }
+
+td.name {
+  padding-left: 14px;
+  font-size: 14px;
+  text-align: left;
+  color: #0072aa; }
+td.status {
+  font-size: 10px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  color: #00ce6c; }
+td.location {
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  color: #191919; }
+
 html, body {
   height: 100%; }
 

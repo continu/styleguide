@@ -35,6 +35,11 @@
             <p class="nav-item-label">Buttons</p>
           </a>
         </li>
+        <li class="nav-item tables">
+          <a class="nav-item-link" href="/#/tables">
+            <p class="nav-item-label">Tables</p>
+          </a>
+        </li>
       </ul>
     </nav>
 

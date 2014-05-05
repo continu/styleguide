@@ -19,3 +19,8 @@ styleguideControllers.controller('ButtonsCtrl', ['$scope', function($scope, $htt
   $('.nav-item').removeClass('selected');
   $('.nav-item.buttons').addClass('selected');
 }]);
+
+styleguideControllers.controller('TablesCtrl', ['$scope', function($scope, $http) {
+  $('.nav-item').removeClass('selected');
+  $('.nav-item.tables').addClass('selected');
+}]);
