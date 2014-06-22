@@ -3,24 +3,26 @@
   float: left;
   width: 216px;
   height: 100%;
-  background: #f7f7f7;
+  background: $primary-white;
+  border-right: 1px solid $border-grey;
 }
 
 .icon-container {
   position: relative;
   height: 216px;
-  background: $primary-dark-blue;
+  background: $primary-white;
 
   .icon {
     position: absolute;
-    width: 50%;
+    //width: 50%;
     margin: auto;
     top: 0;
     right: 0;
-    bottom: 0;
-    left: 0;
+    //bottom: 0;
+    //left: 0;
   }
 }
+
 
 .nav {
   position: absolute;
@@ -33,7 +35,7 @@
     cursor: pointer;
 
     .nav-item-link {
-      color: $primary-grey;
+      color: $primary-light-blue;
       text-decoration: none;
 
       .nav-item-label {
@@ -42,15 +44,16 @@
       }
     }
 
-    &:hover,
-    &.selected {
+    &:hover {
       .nav-item-link {
         color: $primary-dark-grey;
       }
     }
 
     &.selected {
-      background: $primary-white;
+      .nav-item-link {
+        color: $primary-grey;
+      }
     }
   }
 }

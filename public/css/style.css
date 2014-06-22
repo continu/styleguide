@@ -1966,20 +1966,18 @@ html:hover [class^="ss-"] {
   float: left;
   width: 216px;
   height: 100%;
-  background: #f7f7f7; }
+  background: #ffffff;
+  border-right: 1px solid #e9eaea; }
 
 .icon-container {
   position: relative;
   height: 216px;
-  background: #004071; }
+  background: #ffffff; }
   .icon-container .icon {
     position: absolute;
-    width: 50%;
     margin: auto;
     top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0; }
+    right: 0; }
 
 .nav {
   position: absolute;
@@ -1990,15 +1988,15 @@ html:hover [class^="ss-"] {
     list-style: none;
     cursor: pointer; }
     .nav .nav-item .nav-item-link {
-      color: #939597;
+      color: #0072aa;
       text-decoration: none; }
       .nav .nav-item .nav-item-link .nav-item-label {
         padding: 20px;
         margin: 0; }
-    .nav .nav-item:hover .nav-item-link, .nav .nav-item.selected .nav-item-link {
+    .nav .nav-item:hover .nav-item-link {
       color: #191919; }
-    .nav .nav-item.selected {
-      background: #ffffff; }
+    .nav .nav-item.selected .nav-item-link {
+      color: #939597; }
 
 .main-section {
   height: 100%;

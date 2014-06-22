@@ -15,6 +15,11 @@
       </div>
 
       <ul class="nav">
+        <li class="nav-item css-styling">
+          <a class="nav-item-link" href="/#/ss-styling">
+            <p class="nav-item-label">CSS &amp; styling</p>
+          </a>
+        </li>
         <li class="nav-item color">
           <a class="nav-item-link" href="/#/color">
             <p class="nav-item-label">Color</p>
@@ -25,9 +30,9 @@
             <p class="nav-item-label">Typography</p>
           </a>
         </li>
-        <li class="nav-item icons">
-          <a class="nav-item-link" href="/#/icons">
-            <p class="nav-item-label">Icons</p>
+        <li class="nav-item tables">
+          <a class="nav-item-link" href="/#/tables">
+            <p class="nav-item-label">Tables</p>
           </a>
         </li>
         <li class="nav-item buttons">
@@ -35,24 +40,35 @@
             <p class="nav-item-label">Buttons</p>
           </a>
         </li>
-        <li class="nav-item tables">
-          <a class="nav-item-link" href="/#/tables">
-            <p class="nav-item-label">Tables</p>
-          </a>
-        </li>
         <li class="nav-item forms">
           <a class="nav-item-link" href="/#/forms">
             <p class="nav-item-label">Forms</p>
           </a>
         </li>
-        <li class="nav-item grid">
-          <a class="nav-item-link" href="/#/grid">
-            <p class="nav-item-label">Grid</p>
+        <li class="nav-item icons">
+          <a class="nav-item-link" href="/#/icons">
+            <p class="nav-item-label">Icons</p>
           </a>
         </li>
-        <li class="nav-item navigation">
-          <a class="nav-item-link" href="/#/navigation">
-            <p class="nav-item-label">Navigation</p>
+        <li class="nav-item charts">
+          <a class="nav-item-link" href="/#/charts">
+            <p class="nav-item-label">Charts</p>
+          </a>
+        </li>
+        <li class="nav-item labels-alerts">
+          <a class="nav-item-link" href="/#/labels-alerts">
+            <p class="nav-item-label">Labels &amp; Alerts</p>
+          </a>
+        </li>
+        
+        <li class="nav-item grid">
+          <a class="nav-item-link" href="/#/grid">
+            <p class="nav-item-label">Grid system</p>
+          </a>
+        </li>
+        <li class="nav-item mobile">
+          <a class="nav-item-link" href="/#/mobile">
+            <p class="nav-item-label">Mobile</p>
           </a>
         </li>
       </ul>
