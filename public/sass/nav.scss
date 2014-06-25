@@ -9,20 +9,27 @@
 
 .icon-container {
   position: relative;
-  height: 216px;
+  height: 170px;
   background: $primary-white;
+  border-bottom: 1px solid $border-grey;
 
   .icon {
     position: absolute;
-    //width: 50%;
-    margin: auto;
-    top: 0;
-    right: 0;
-    //bottom: 0;
-    //left: 0;
+    left: 50%;
+    margin-left: -26px;
+    top: 40px;
+  }
+
+  .nav-title {
+    position: absolute;
+    top: 115px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
+    width: 216px;
+    color: $primary-grey;
   }
 }
-
 
 .nav {
   position: absolute;
@@ -33,6 +40,7 @@
   .nav-item {
     list-style: none;
     cursor: pointer;
+    font-size: 14px;
 
     .nav-item-link {
       color: $primary-light-blue;

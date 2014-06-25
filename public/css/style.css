@@ -1,4 +1,66 @@
 /*
+**********************
+***** import/variables.scss
+*****
+***** Copyright Continu 2013
+**********************
+*/
+/*
+// OLD ALERT COLORS
+$alert-green: #00ce6c;
+$alert-red: #fa4846;
+$alert-yellow: #f0e700;
+$alert-orange: #ff5019;
+*/
+/*
+
+$primary-dark-blue: #004071;
+$primary-dark-blue_hover: #3e6e93;
+
+$primary-light-blue: #0072aa;
+$primary-light-blue_hover: #4095bf;
+
+$primary-bright-blue: #00bcf2;
+$primary-bright-blue_hover: #40cdf5;
+
+$primary-dark-grey: #191919;
+$primary-dark-grey_hover: #535353;
+
+$primary-grey: #939597;
+$primary-grey_hover: #aeb0b1;
+
+$primary-white: #ffffff;
+
+
+
+
+// SECONDARY COLORS
+
+$secondary-purple: #a871c0;
+$secondary-purple_hover: #bc93ce;
+
+$secondardy-green: #00aa8d;
+$secondardy-green_hover: #3ebda8;
+
+$secondardy-yellow: #f2d452;
+$secondardy-yellow_hover: #f3dd7b;
+
+$secondardy-orange: #ff8100;
+$secondardy-orange_hover: #fbb56c;
+
+
+// ALERT COLORS
+
+$alert-green: #00ce6c;
+$alert-red: #fa4846;
+$alert-yellow: #f0e700;
+$alert-orange: #ff5019;
+
+// TYPOGRAPHY
+$serif: 'Mercury SSm A', 'Mercury SSm B', serif;
+$sans-serif: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+*/
+/*
 * Symbolset
 * www.symbolset.com
 * Copyright © 2012 Oak Studios LLC
@@ -1971,13 +2033,22 @@ html:hover [class^="ss-"] {
 
 .icon-container {
   position: relative;
-  height: 216px;
-  background: #ffffff; }
+  height: 170px;
+  background: #ffffff;
+  border-bottom: 1px solid #e9eaea; }
   .icon-container .icon {
     position: absolute;
-    margin: auto;
-    top: 0;
-    right: 0; }
+    left: 50%;
+    margin-left: -26px;
+    top: 40px; }
+  .icon-container .nav-title {
+    position: absolute;
+    top: 115px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
+    width: 216px;
+    color: #939597; }
 
 .nav {
   position: absolute;
@@ -1986,7 +2057,8 @@ html:hover [class^="ss-"] {
   margin: 0; }
   .nav .nav-item {
     list-style: none;
-    cursor: pointer; }
+    cursor: pointer;
+    font-size: 14px; }
     .nav .nav-item .nav-item-link {
       color: #0072aa;
       text-decoration: none; }
@@ -2002,22 +2074,29 @@ html:hover [class^="ss-"] {
   height: 100%;
   margin-left: 216px;
   padding: 40px;
-  box-sizing: border-box;
-  overflow: auto; }
+  box-sizing: border-box; }
 
 .section-heading {
   margin: 0;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
+  font-weight: 300;
   border-bottom: 1px solid #e2e2e2;
-  color: #0072aa; }
+  color: #000000;
+  font-size: 24px; }
 
 .sub-section {
   margin-top: 30px; }
 
 .sub-section-heading {
-  margin: 30px 0;
-  font-weight: 500;
-  text-transform: uppercase; }
+  margin: 0 0 10px 0;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #000000; }
+
+.sub-section-text {
+  margin: 0 0 65px 0;
+  font-weight: 300;
+  color: #000000; }
 
 .primary-colors-container, .secondary-colors-container, .alert-colors-container {
   overflow: auto; }
@@ -2029,7 +2108,8 @@ html:hover [class^="ss-"] {
   .primary-color .normal, .secondary-color .normal {
     height: 100px; }
   .primary-color .hover, .secondary-color .hover {
-    height: 40px; }
+    height: 40px;
+    font-size: 12px !important; }
 
 .primary-color:nth-child(1) .normal {
   background: #004071; }
@@ -2052,32 +2132,18 @@ html:hover [class^="ss-"] {
 .primary-color:nth-child(5) .hover {
   background: #aeb0b1; }
 .primary-color:nth-child(6) .normal, .primary-color:nth-child(6) .hover {
+  background: #F7F7F7; }
+.primary-color:nth-child(7) .normal, .primary-color:nth-child(7) .hover {
   background: #ffffff; }
 .primary-color.white {
   border: 1px solid #e2e2e2; }
 
-.secondary-color:nth-child(1) .normal {
-  background: #a871c0; }
-.secondary-color:nth-child(1) .hover {
-  background: #bc93ce; }
-.secondary-color:nth-child(2) .normal {
-  background: #00aa8d; }
-.secondary-color:nth-child(2) .hover {
-  background: #3ebda8; }
-.secondary-color:nth-child(3) .normal {
-  background: #f2d452; }
-.secondary-color:nth-child(3) .hover {
-  background: #f3dd7b; }
-.secondary-color:nth-child(4) .normal {
-  background: #ff8100; }
-.secondary-color:nth-child(4) .hover {
-  background: #fbb56c; }
-
-.normal .color-label, .hover .color-label {
+.normal .color-label, .color .color-label, .hover .color-label {
   display: block;
   text-align: center;
   text-transform: uppercase;
-  color: white; }
+  color: white;
+  font-size: 14px; }
 
 .normal .color-label {
   font-size: 14px; }
@@ -2085,7 +2151,7 @@ html:hover [class^="ss-"] {
 .hover .color-label {
   font-size: 12px; }
 
-.normal .color-label {
+.color .color-label, .normal .color-label {
   line-height: 100px; }
 
 .hover .color-label {
@@ -2094,15 +2160,26 @@ html:hover [class^="ss-"] {
 .white .normal .color-label {
   color: #191919; }
 
+.secondary-color {
+  float: left;
+  width: 100px;
+  margin-right: 20px; }
+  .secondary-color .normal {
+    height: 100px; }
+
 .alert-color {
   float: left;
-  width: 85px; }
+  width: 100px;
+  margin-right: 20px; }
+  .alert-color .normal {
+    height: 100px; }
   .alert-color .color {
-    width: 45px;
-    height: 45px;
-    border-radius: 100%; }
-  .alert-color .label, .alert-color .description {
+    width: 100px;
+    height: 100px;
+    color: #ffffff; }
+  .alert-color .description {
     display: block;
+    margin-top: 10px;
     font-size: 14px;
     font-weight: 300; }
   .alert-color .label {
@@ -2110,13 +2187,13 @@ html:hover [class^="ss-"] {
   .alert-color .description:nth-child(3) {
     margin-top: 10px; }
   .alert-color:nth-child(1) .color {
-    background: #00ce6c; }
+    background: #2cc36b; }
   .alert-color:nth-child(2) .color {
-    background: #fa4846; }
+    background: #ea6153; }
   .alert-color:nth-child(3) .color {
-    background: #f0e700; }
+    background: #f2d452; }
   .alert-color:nth-child(4) .color {
-    background: #ff5019; }
+    background: #ff8100; }
 
 .type-container {
   margin: 30px 0 60px;
@@ -2307,7 +2384,7 @@ td.status {
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
-  color: #00ce6c; }
+  color: #2cc36b; }
 td.location {
   font-size: 12px;
   font-weight: 300;
@@ -2328,7 +2405,7 @@ form {
     float: left;
     font-size: 15px;
     line-height: 15px;
-    color: #fa4846; }
+    color: #ea6153; }
   form input[type=text], form select, form textarea {
     display: block;
     border: 2px solid #e6e6e7;

@@ -1,6 +1,13 @@
 @charset "UTF-8";
 
-@import "variables";
+
+// GLOBAL
+
+@import "../continu-app/public/sass/import/variables";
+
+// LOCAL
+
+@import "_variables";
 @import "ss-standard";
 @import "ss-symbolicons-block";
 @import "nav";
