@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+cd /home/deploy/styleguide/current
+npm install
+NODE_ENV=production ./node_modules/.bin/gulp
+NODE_ENV=production SERVER_HOST=digitalocean forever restartall
