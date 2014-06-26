@@ -13,54 +13,6 @@ $alert-yellow: #f0e700;
 $alert-orange: #ff5019;
 */
 /*
-
-$primary-dark-blue: #004071;
-$primary-dark-blue_hover: #3e6e93;
-
-$primary-light-blue: #0072aa;
-$primary-light-blue_hover: #4095bf;
-
-$primary-bright-blue: #00bcf2;
-$primary-bright-blue_hover: #40cdf5;
-
-$primary-dark-grey: #191919;
-$primary-dark-grey_hover: #535353;
-
-$primary-grey: #939597;
-$primary-grey_hover: #aeb0b1;
-
-$primary-white: #ffffff;
-
-
-
-
-// SECONDARY COLORS
-
-$secondary-purple: #a871c0;
-$secondary-purple_hover: #bc93ce;
-
-$secondardy-green: #00aa8d;
-$secondardy-green_hover: #3ebda8;
-
-$secondardy-yellow: #f2d452;
-$secondardy-yellow_hover: #f3dd7b;
-
-$secondardy-orange: #ff8100;
-$secondardy-orange_hover: #fbb56c;
-
-
-// ALERT COLORS
-
-$alert-green: #00ce6c;
-$alert-red: #fa4846;
-$alert-yellow: #f0e700;
-$alert-orange: #ff5019;
-
-// TYPOGRAPHY
-$serif: 'Mercury SSm A', 'Mercury SSm B', serif;
-$sans-serif: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
-*/
-/*
 * Symbolset
 * www.symbolset.com
 * Copyright © 2012 Oak Studios LLC
@@ -2023,6 +1975,54 @@ html:hover [class^="ss-"] {
 .ss-share:before, .ss-share.right:after {
   content: ''; }
 
+/*
+
+$primary-dark-blue: #004071;
+$primary-dark-blue_hover: #3e6e93;
+
+$primary-light-blue: #0072aa;
+$primary-light-blue_hover: #4095bf;
+
+$primary-bright-blue: #00bcf2;
+$primary-bright-blue_hover: #40cdf5;
+
+$primary-dark-grey: #191919;
+$primary-dark-grey_hover: #535353;
+
+$primary-grey: #939597;
+$primary-grey_hover: #aeb0b1;
+
+$primary-white: #ffffff;
+
+
+
+
+// SECONDARY COLORS
+
+$secondary-purple: #a871c0;
+$secondary-purple_hover: #bc93ce;
+
+$secondardy-green: #00aa8d;
+$secondardy-green_hover: #3ebda8;
+
+$secondardy-yellow: #f2d452;
+$secondardy-yellow_hover: #f3dd7b;
+
+$secondardy-orange: #ff8100;
+$secondardy-orange_hover: #fbb56c;
+
+
+// ALERT COLORS
+
+$alert-green: #00ce6c;
+$alert-red: #fa4846;
+$alert-yellow: #f0e700;
+$alert-orange: #ff5019;
+
+// TYPOGRAPHY
+$serif: 'Mercury SSm A', 'Mercury SSm B', serif;
+$sans-serif: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+*/
 .nav-container {
   position: relative;
   float: left;
@@ -2088,7 +2088,7 @@ html:hover [class^="ss-"] {
   margin-top: 30px; }
 
 .sub-section-heading {
-  margin: 0 0 10px 0;
+  margin: 30px 0 10px 0;
   font-weight: 400;
   text-transform: uppercase;
   color: #000000; }

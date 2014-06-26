@@ -4,12 +4,12 @@
 // GLOBAL
 
 @import "../continu-app/public/sass/import/variables";
-
+@import "../continu-app/public/sass/vendor/ss-standard";
+@import "../continu-app/public/sass/vendor/ss-symbolicons-block";
 // LOCAL
 
 @import "_variables";
-@import "ss-standard";
-@import "ss-symbolicons-block";
+
 @import "nav";
 @import "section";
 @import "color";

@@ -18,21 +18,24 @@ gulp.task('js', function() {
       .pipe(gulp.dest('./public/js'));
 });
 
-gulp.task('sass-global', function () {
-  gulp.src(['../continu-app/public/sass/*.scss'])
-      .pipe(sass({includePaths: ['../continu-app/public/sass'], errLogToConsole: true}))
-      .pipe(rename('style-global.css'))
-      .pipe(gulp.dest('./public/css'));
-});
-
 gulp.task('sass', function () {
-  gulp.src(['./public/sass/*.scss'])
-      .pipe(sass({includePaths: ['./public/sass'], errLogToConsole: true}))
-      .pipe(rename('style.css'))
-      .pipe(gulp.dest('./public/css'));
-});
+    gulp.src(['./public/sass/*.scss'])
+        .pipe(sass({includePaths: ['./public/sass'], errLogToConsole: true}))
+        .pipe(rename('style.css'))
+        .pipe(gulp.dest('./public/css'));
+  });
 
-gulp.task('default', ['js', 'sass'], function() {
-  nodemon({ script: 'app.js', ext: 'js scss' })
-    .on('change', ['js', 'sass']);
-});
+if(process.env.NODE_ENV === 'production' || process.env.NODE_ENV === 'development'){
+    
+  gulp.task('default', ['js']);
+
+} else {
+
+  gulp.task('default', ['js', 'sass'], function() {
+    nodemon({ script: 'app.js', ext: 'js scss' })
+      .on('change', ['js', 'sass']);
+  });
+
+}
+
+
